@@ -1,0 +1,62 @@
+$date
+	Sat Jun 20 09:10:29 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_program_counter $end
+$var wire 16 ! tb_pc_out [15:0] $end
+$var reg 1 " tb_branch_en $end
+$var reg 16 # tb_branch_target [15:0] $end
+$var reg 1 $ tb_clk $end
+$var reg 1 % tb_pc_en $end
+$var reg 1 & tb_rstn $end
+$scope module dut $end
+$var wire 1 " branch_en $end
+$var wire 16 ' branch_target [15:0] $end
+$var wire 1 $ clk $end
+$var wire 1 % pc_en $end
+$var wire 1 & rstn $end
+$var reg 16 ( pc_out [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 (
+b10100000 '
+0&
+1%
+0$
+b10100000 #
+1"
+b0 !
+$end
+#10
+0"
+1$
+#20
+1"
+0%
+1&
+0$
+#30
+b1 !
+b1 (
+0"
+1%
+1$
+#40
+0%
+0$
+#50
+b10100000 !
+b10100000 (
+1"
+1%
+1$
+#60
+0$

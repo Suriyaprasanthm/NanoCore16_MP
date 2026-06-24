@@ -1,0 +1,49 @@
+$date
+	Sat Jun 20 09:25:35 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_instruction_memory $end
+$var wire 16 ! tb_instr [15:0] $end
+$var reg 16 " tb_addr [15:0] $end
+$scope module dut $end
+$var wire 16 # addr [15:0] $end
+$var reg 16 $ instr [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#10
+b1 !
+b1 $
+b1 "
+b1 #
+#20
+b10 !
+b10 $
+b10 "
+b10 #
+#30
+b1111000000000000 !
+b1111000000000000 $
+b100000000 "
+b100000000 #
+#40
+b1111111100000101 "
+b1111111100000101 #
+#50
+b11 !
+b11 $
+b11 "
+b11 #
+#60
